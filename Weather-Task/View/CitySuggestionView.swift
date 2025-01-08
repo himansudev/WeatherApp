@@ -56,7 +56,6 @@ struct CitySuggestionView:View{
                     //List View
                     List(viewModel.suggestions) { suggestion in
                         Button(action: {
-                            viewModel.seenCities.append(suggestion)
                             viewModel.selectedCity = suggestion
                             viewModel.city = ""
                             viewModel.suggestions = []

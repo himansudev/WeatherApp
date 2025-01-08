@@ -37,8 +37,6 @@ class CitySuggestionViewModel: ObservableObject {
             }
             .store(in: &cancellables)
         
-        loadCities()
-        
     }
 }
 
